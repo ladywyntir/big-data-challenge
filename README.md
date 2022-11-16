@@ -20,7 +20,7 @@ This Challenge contains two levels. The second level is optional but highly reco
 1. Registered a new server
 2. Used the AWS Endpoint, Port, Username and Password to connect
 3. Used the schema.sql file to add the tables to my new DB
-![Image](../big-data-challenge/Images/postgresql%20DB%20schema%20for%20tables1.jpg)
+![Image](/Images/postgresql%20DB%20schema%20for%20tables1.jpg)
 <hr>
 
 ### Code Theory - Level 1
@@ -44,14 +44,14 @@ This Challenge contains two levels. The second level is optional but highly reco
 12. Send write commands to the database for tables, review_id_table, products, customers, and vine_table
 13. Once that all works, do the same for **amazon_reviews_us_Video_v1_00.tsv.gz.**
     * Now here's a little aside.... I originally had digital video games selected as my 2nd dataset, however I was getting an error when I attempted to upload to the **products** table. <br/>
-    ![Image](../big-data-challenge/Images/RDS%20write%20duplicate%20error%20with%20red%20box.jpg)<br/>
+    ![Image](/Images/RDS%20write%20duplicate%20error%20with%20red%20box.jpg)<br/>
 
     Turns out that it kept finding the product ID in there already.  I changed the **mode** parameter to **"overwrite"** then **"ignore"** for running it any other time.
 14. Then I ran some SQL queries to view the first 10 rows and to count all rows in pgAdmin to ensure the database updated.<br/><br/>
-![Image](../big-data-challenge/Images/first%20pass%20-%20sql%20query%20for%20customers%20table.jpg) 
-![Image](../big-data-challenge/Images/first%20pass%20-%20sql%20query%20for%20products%20table.jpg)<br/><br/>
-![Image](../big-data-challenge/Images/first%20pass%20-%20sql%20query%20for%20review_id_table%20table.jpg) 
-![Image](../big-data-challenge/Images/first%20pass%20-%20sql%20query%20for%20vine_table%20table.jpg)
+![Image](/Images/first%20pass%20-%20sql%20query%20for%20customers%20table.jpg) 
+![Image](/Images/first%20pass%20-%20sql%20query%20for%20products%20table.jpg)<br/><br/>
+![Image](/Images/first%20pass%20-%20sql%20query%20for%20review_id_table%20table.jpg) 
+![Image](/Images/first%20pass%20-%20sql%20query%20for%20vine_table%20table.jpg)
 
 <hr>
 
